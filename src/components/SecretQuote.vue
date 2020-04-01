@@ -1,6 +1,6 @@
 <template>
   <div class="col-sm-6 col-sm-offset-3">
-    <h1>Get a Secret Chuck Norris Quote!</h1>
+    <h1>Add a private To-Do!</h1>
     <button class="btn btn-warning" v-on:click="getQuote()">Get a Quote</button>
     <div class="quote-area" v-if="quote">
       <h2><blockquote>{{ quote }}</blockquote></h2>      

@@ -3,7 +3,7 @@ import {router} from '../index'
 const API_URL = 'http://localhost:3001/'
 const LOGIN_URL = API_URL + 'sessions/create/'
 const SIGNUP_URL = API_URL + 'users/'
-
+const TODO_URL = API_URL + 'sessions/create/todos'
 export default {
 
   user: {
@@ -38,6 +38,9 @@ export default {
     }).error((err) => {
       context.error = err
     })
+  },
+  addtodo(){
+    localStorage.setItem('')
   },
 
   logout() {
