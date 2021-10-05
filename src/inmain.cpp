@@ -3,5 +3,6 @@
 int main(){
   int a=0;
   cout<<a<<endl;
+  cout<<"Hello"<<endl;
   return 0;
 }
