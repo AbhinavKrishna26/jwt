@@ -4,6 +4,7 @@
     <p>Log in to your account to get some great quotes.</p>
     <div class="alert alert-danger" v-if="error">
       <p>{{ error }}</p>
+      <p>The Output has been generated!</p>
     </div>
     <div class="form-group">
       <input 
