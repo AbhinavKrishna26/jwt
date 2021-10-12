@@ -1,0 +1,8 @@
+union REGS in, out;
+struct SEGS segs;
+int v;
+char _far* p;
+...
+int86x(...,&in,&out,&segs);
+p = (segs.es << 16) + out.x.bx + 4;
+v = (int)*p;
