@@ -1,0 +1,96 @@
+.container-1
+{
+    border: 1px solid blue;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .flex-container-1
+{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 75%;
+    border: 20px blue;
+} */
+
+/* input:hover
+{
+    color: lightblue;
+}
+
+#rock img
+{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 50%;
+}
+
+#paper img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 50%;
+}
+
+
+#scissor img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 50% 
+}
+
+input[type="image"] img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 25%;
+    height: 50%;
+} */
+
+#rock
+{
+    border: 1px green;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 25%;
+    margin: 5px;
+}
+
+#paper
+{
+    border: 1px green;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 25%;
+    margin: 5px;
+}
+
+#scissor
+{
+    border: 1px green;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 25%;
+    margin: 5px;
+}
+
+
+.flex-container-1
+{
+    border: green;
+}
+
+.res
+{
+    border: 1px green;
+}
